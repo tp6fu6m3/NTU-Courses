@@ -1,0 +1,563 @@
+3D Rotations, see Rotations
+Adaptive smoothing, 127
+Affine transforms, 37, 40
+Affinities (segmentation), 296
+normalizing, 297
+Aliasing, 77, 476
+Alpha
+opacity, 106
+pre-multiplied, 106
+Alpha matte, 105
+Ambient illumination, 65
+Analog to digital conversion (ADC), 77
+Anisotropic diffusion, 127
+Anisotropic filtering, 168
+Anti-aliasing filter, 78, 476
+Aperture, 69
+Aperture problem, 394
+Applications, 5
+image restoration, 192
+machine inspection, 5
+medical imaging, 5, 304, 408
+morphing, 173
+tonal adjustment, 111
+Area statistics, 132
+perimeter, 132
+second moment (inertia), 132
+Aspect ratio, 52, 53
+Automatic gain control (AGC), 76
+Axis/angle representation of rotations, 41
+B-spline, 171, 172, 250, 273, 279, 408
+cubic, 146
+Band-pass filter, 118
+Bayer pattern (RGB sensor mosaic), 85
+demosaicing, 86, 502
+Bayes¡¦ rule, 141, 180, 762
+Bayesian modeling, 180, 762
+MAP estimate, 180, 763
+posterior distribution, 180, 762
+prior distribution, 180, 762
+uncertainty, 180
+Belief propagation (BP), 185, 768
+Bias, 104, 386
+Bidirectional Reflectance Distribution Function,see BRDF
+Bilateral filter, 125
+range kernel, 125
+Bilinear blending, 110
+Bilinear kernel, 117
+Blocks world, 11
+Blue screen matting, 106, 195, 507
+Blur kernel, 69
+Blur removal, 144, 197
+Body color, 63
+Boltzmann distribution, 181, 763
+Border (boundary) effects, 114, 196
+Box filter, 117
+Boxlet, 121
+BRDF, 62
+anisotropic, 62
+isotropic, 62
+Calibration, see Camera calibration
+Calibration matrix, 51
+Camera calibration, 50, 97
+extrinsic, 51, 321
+intrinsic, 50, 327
+Camera matrix, 51, 54
+CCD, 74
+blooming, 74
+Central difference, 118
+Chamfer matching, 129
+Characteristic function, 131, 281, 590, 596
+Chromatic aberration, 71, 342
+Chromaticity coordinates, 83
+CIE L*a*b*, see Color
+CIE L*u*v*, see Color
+CIE XYZ, see Color
+Circle of confusion, 69
+CLAHE, see Histogram equalization
+Clustering
+Co-vector, 37
+Coefficient matrix, 177
+camera, 84
+demosaicing, 86, 502
+fringing, 504
+hue, saturation, value (HSV), 90
+L*a*b*, 83
+L*u*v*, 84, 289
+primaries, 81
+profile, 473
+ratios, 90
+RGB, 81
+transform, 104
+twist, 86, 105
+XYZ, 81
+YIQ, 88
+YUV, 88
+Color filter array (CFA), 85, 502
+Compositing, 105, 192, 195
+image stitching, 450
+opacity, 106
+over operator, 106
+transparency, 106
+Compression, 90
+Conditional random field (CRF), 188, 553,
+Confusion matrix (table), 226
+Conic section, 33
+Connected components, 131, 198
+Continuation method, 179
+Contour
+Contrast, 104
+Controlled-continuity spline, 175
+Convolution, 112
+kernel, 111
+mask, 111
+superposition, 112
+Coring, 153, 201
+Correlation, 111, 386
+windowed, 390
+Correspondence map, 398
+Decimation, 148
+Decimation kernels
+bicubic, 150
+binomial, 148, 150
+QMF, 150
+windowed sinc, 148
+Demosaicing (Bayer), 86, 502
+Depth map, see Disparity map
+Depth of field, 69, 95
+Di-chromatic reflection model, 67
+Difference matting (keying), 106, 195, 508,
+Difference of Gaussians (DoG), 152
+Difference of low-pass (DOLP), 152
+Diffuse reflection, 63
+Diffusion
+anisotropic, 127
+Digital camera, 73
+color, 84
+color filter array (CFA), 85
+compression, 90
+Direct current (DC), 92
+Directional derivative, 119
+selectivity, 120
+Discrete cosine transform (DCT), 91, 142
+Discrete Fourier transform (DFT), 134
+Discriminative random field (DRF), 190
+Disparity, 49, 539
+Disparity map, 540, 562
+Displacement field, 170
+Distance transform, 129, 198
+Euclidean, 129
+Manhattan (city block), 129
+signed, 130
+Domain (of a function), 103
+Domain scaling law, 167
+Downsampling, see Decimation
+Edge detection, 238, 261
+boundary detection, 244
+Elliptical weighted average (EWA), 168
+accuracy (ACC), 229
+Euclidean transformation, 36, 40
+Euler angles, 41
+Exponential twist, 43
+Exposure value (EV), 70, 470
+F-number (stop), 69, 95
+Factorization, 15, 357
+Fast Fourier transform (FFT), 134
+Feature descriptor, 222, 260
+Adaptive non-maximal suppression, 215
+auto-correlation, 210
+Harris, 212
+Laplacian of Gaussian, 217
+repeatability, 215
+scale invariance, 216
+Feature matching, 207, 225, 261
+Field of Experts (FoE), 186
+Fill factor, 75
+adaptive, 127
+band-pass, 118
+bilateral, 125
+directional derivative, 119
+edge-preserving, 124, 127
+Laplacian of Gaussian, 119
+median, 124
+moving average, 117
+non-linear, 122
+separable, 115, 197
+steerable, 119, 198
+Filter coefficients, 111
+Finite element analysis, 176
+stiffness matrix, 177
+Finite impulse response (FIR) filter, 111, 122
+Fisheye lens, 59
+Focal length, 52, 53, 69
+Focus, 69
+Form factor, 68
+Forward mapping, see Forward warping
+Forward warping, 164, 202
+Fourier transform, 132, 198
+discrete, 134
+Parseval¡¦s Theorem, 136
+phase (shift), 133
+power spectrum, 140
+two-dimensional, 140
+Fundamental radiometric relation, 73
+Gain, 104, 386
+Gamma, 104
+Gamma correction, 87, 96
+Gaussian kernel, 117
+Gaussian Markov random field (GMRF),
+184, 191, 499
+Gaussian mixtures, see Mixture of Gaussians
+Gaussian pyramid, 150
+Gaussian scale mixtures (GSM), 186
+Geometric image formation, 31
+Geometric lens aberrations, 70
+Geometric primitives, 32
+homogeneous coordinates, 32
+lines, 32, 34
+normal vector, 32
+normal vectors, 34
+planes, 33
+points, 32, 33
+Geometric transformations
+2D, 35, 163
+3D, 39
+3D perspective, 40
+3D rotations, 41
+affine, 37, 40
+bilinear, 39
+calibration matrix, 51
+collineation, 40
+Euclidean, 36, 40
+forward warping, 164, 202
+hierarchy, 37
+homography, 37, 40, 56, 431
+inverse warping, 165
+perspective, 37
+projections, 46
+projective, 37
+rigid body, 36, 40
+scaled rotation, 36, 40
+similarity, 36, 40
+translation, 36, 39
+Gibbs distribution, 181, 763
+Gibbs sampler, 765
+Global illumination, 67
+Global optimization, 174
+Gradient location-orientation histogram(GLOH), 223
+Graduated non-convexity (GNC), 179
+MRF inference, 183, 770
+Hann window, 138
+Harris corner detector, see Feature detection
+Hessian, 177, 213, 313, 315, 320, 394, 399,
+Highest confidence first (HCF), 182
+Hilbert transform pair, 120
+Histogram equalization, 107, 196
+locally adaptive, 109, 196
+Homogeneous coordinates, 32, 347
+Homography, 37, 56, 431
+Ideal points, 32
+Ill-posed (ill-conditioned) problems, 175
+Illusions, 3
+Image alignment
+Image blending
+pyramid, 160, 459
+Image compression, 90
+Image decimation, 148
+Image deconvolution, see Blur removal
+Image filtering, 111
+Image formation
+geometric, 31
+photometric, 60
+Image gradient, 119, 127, 392
+constraint, 177
+Image interpolation, 145
+Image processing, 101
+Image pyramid, 144, 200
+Image resampling, 163, 199
+Image restoration, 144, 192
+deblocking, 204
+inpainting, 192
+noise removal, 144, 197, 203
+Image statistics, 132
+Impulse response, 112
+Incremental rotation, 45
+Infinite impulse response (IIR) filter, 122
+Influence function, 179, 318, 761
+Interpolation, 145
+Interpolation kernels
+bicubic, 146
+bilinear, 145
+binomial, 145
+sinc, 148
+spline, 148
+Intrinsic images, 12
+Inverse mapping, see Inverse warping
+Inverse problems, 3, 175
+Inverse warping, 165
+Kernel, 117
+bilinear, 117
+Gaussian, 117
+low-pass, 117
+Sobel operator, 118
+unsharp mask, 117
+Kernel basis function, 176
+Keypoint detection, see Feature detection
+L*a*b*, see Color
+L*u*v*, see Color
+Lambertian reflection, 63
+Laplacian of Gaussian (LoG) filter, 119
+Laplacian pyramid, 151
+blending, 160, 200, 459
+perfect reconstruction, 151
+nodal point, 71
+thin, 69
+Lens distortions, 58
+spline-based, 59
+tangential, 59
+Lens law, 69
+Lifting, see Wavelets
+Light field
+Lightness, 84
+Line at infinity, 32
+Line equation, 32, 34
+Line fitting, 94, 264
+Line labeling, 11
+Linear blend, 104
+Linear filtering, 111
+Linear operator, 104
+superposition, 104
+Local operator, 111
+Locally adaptive histogram equalization, 109
+Low-pass filter, 117
+sinc, 117
+Markov random field, 180, 763
+learning parameters, 180
+line process, 194, 553, 764
+Matte reflection, 63
+Matting, 105, 106, 505, 529
+alpha matte, 105
+Bayesian, 510
+blue screen, 106, 195, 507
+difference, 106, 195, 508, 606
+Mean square error (MSE), 92, 547
+Medial axis transform (MAT), 130
+Median filter, 124
+weighted, 124
+Membrane, 175
+Mesh-based warping, 170, 201
+MIP-mapping, 167
+trilinear, 168
+Bayesian, 180, 762
+Modulation transfer function (MTF), 79, 476
+Morphing, 173, 202, 622, 623
+feature-based, 173, 202
+Morphological operator, 127
+closing, 128
+dilation, 128
+erosion, 128
+opening, 128
+Morphology, 127
+Motion compensation, 92
+affine, 398
+MRF inference, 182, 765
+alpha expansion, 185, 772
+belief propagation, 185, 768
+highest confidence first, 182
+iterated conditional modes, 182, 765
+Multi-pass transforms, 169
+Multiresolution representation, 150
+Negative posterior log likelihood, 180, 758
+Neighborhood operator, 111, 122
+Nodal point, 71
+Noise level function (NLF), 76, 96, 473, 527
+Noise removal, 144, 197, 203
+Non-linear filter, 122, 193
+Non-linear least squares
+Norms
+L1, 179, 385, 411, 597
+Object-centered projection, 57
+Opacity, 106
+linearity, 104
+Optical center, 52
+Optical illusions, 3
+Optical transfer function (OTF), 79, 476
+Optics, 68
+chromatic aberration, 71
+Seidel aberrations, 70
+vignetting, 72, 527
+Orthographic projection, 46
+Over operator, 106
+Overview, 19
+Padding, 114, 196
+Para-perspective projection, 48
+Parametric transformation, 163, 201
+Parseval¡¦s Theorem, see Fourier transform
+Peak signal-to-noise Ratio (PSNR), 92, 144
+Perspective projection, 48
+Perspective transform (2D), 37
+Phong shading, 65
+Photometric image formation, 60
+global illumination, 67
+lighting, 60
+optics, 68
+radiosity, 67
+reflectance, 62
+shading, 65
+Photometry, 60
+Photomontage, 459
+Physically based models, 14
+Physics-based vision, 16
+Pixel transform, 103
+Pl¡Lucker coordinates, 35
+Planar pattern tracking, 326
+Plane at infinity, 34
+Plane equation, 33
+Point operator, 101
+Point process, 101
+Point spread function (PSF), 78
+Points at infinity, 32
+Poisson
+noise, 76
+Polar coordinates, 33
+Polyphase filter, 145
+Pop-out effect, 4
+Power spectrum, 140
+Precision, see Error rates
+mean average, 229
+Prior energy (term), 181, 763
+Prior model, see Bayesian model
+object-centered, 57
+orthographic, 46
+para-perspective, 48
+perspective, 48
+Projective depth, 55, 540
+Projective disparity, 55, 540
+Projective space, 32
+PSNR, see Peak signal-to-noise ratio
+Pyramid, 144, 200
+blending, 160, 200
+Gaussian, 150
+Laplacian, 151
+octave, 150
+radial frequency implementation, 159
+steerable, 159
+Quadratic form, 177
+Quadrature mirror filter (QMF), 150
+Quadric equation, 33, 35
+Quadtree spline
+restricted, 407
+Quaternions, 43
+antipodal, 43
+multiplication, 44
+Quincunx sampling, 152
+Radial basis function, 171, 176, 592
+Radial distortion, 58
+barrel, 58
+calibration, 334
+parameters, 58
+pincushion, 58
+Range (of a function), 103
+Range data, see Range scan
+Range image, see Range scan
+Range scan
+RAW image format, 77
+Ray tracing, 68
+Reference plane, 55
+Reflectance, 62
+di-chromatic, 67
+diffuse, 63
+specular, 64
+Regularization, 174, 407
+Regularization parameter, 176
+Rigid body transformation, 36, 40
+Robust regularization, 178
+Rodriguez¡¦s formula, 42
+Root mean square error (RMS), 92, 385
+Rotations, 41
+Euler angles, 41
+axis/angle, 41
+exponential twist, 43
+interpolation, 45
+quaternions, 43
+Rodriguez¡¦s formula, 42
+Sampling, 77
+Scale-space, 13, 119, 152, 282
+Scattered data interpolation, 171, 592
+binary MRF, 182, 300
+connected components, 131, 198
+thresholding, 127
+Seidel aberrations, 70
+Sensing, 73
+aliasing, 77, 476
+color balance, 86
+gamma, 87
+pipeline, 74, 471
+sampling, 77
+sampling pitch, 75
+Sensor noise, 76, 473
+amplifier, 76
+dark current, 76
+fixed pattern, 76
+shot noise, 76
+Separable filtering, 115, 197
+Shading, 65
+equation, 64
+Shape-from-X, 14
+focus, 14
+photometric stereo, 14
+shading, 14
+texture, 14
+Shift invariance, 112
+Shiftable multi-scale transform, 159
+Shutter speed, 75
+Similarity transform, 36, 40
+Simulated annealing, 182, 766
+interpolation, 148
+low-pass, 117
+windowed, 148
+Skeleton, 130, 248
+Skew, 50, 52
+Skin color detection, 96
+Smoothness constraint, 176
+Smoothness penalty, 176
+Spectral response function, 85
+Spectral sensitivity, 85
+Specular reflection, 64
+Spherical coordinates, 34, 253, 256, 439
+Spherical linear interpolation, 45
+Spline
+controlled continuity, 175
+thin plate, 175Steerable filter, 119, 198
+Steerable pyramid, 159
+Steerable random field, 184
+Stiffness matrix, 177
+Stochastic gradient descent, 182
+Structural Similarity (SSIM) index, 144
+Summed area table, 120
+Superposition principle, 104
+MIP-mapping, 167
+multi-pass, 169
+trilinear interpolation, 168
+Thin lens, 69
+Thin-plate spline, 175
+Thresholding, 127
+Tonal adjustment, 111, 196
+Tri-chromatic sensing, 81
+Uncanny valley, 3
+Unsharp mask, 117
+Variational method, 175
+Video compression
+Vignetting, 72, 386, 474, 527
+Visual illusions, 3
+Wavelets, 154, 201
+compression, 201
+lifting, 156
+overcomplete, 155, 159
+second generation, 158
+tight frame, 155
+weighted, 158
+White balance, 86, 97
+Wiener filter, 140, 142, 198
+Wrapping mode, 115
+XYZ, see Color
